@@ -10,6 +10,6 @@ radio.onReceivedValue(function (name, value) {
         kitronik_motor_driver.motorOn(kitronik_motor_driver.Motors.Motor1, kitronik_motor_driver.MotorDirection.Reverse, Math.abs(value))
     }
 })
-radio.setGroup(197)
+radio.setGroup(207)
 kitronik_motor_driver.motorOff(kitronik_motor_driver.Motors.Motor2)
 kitronik_motor_driver.motorOff(kitronik_motor_driver.Motors.Motor1)
